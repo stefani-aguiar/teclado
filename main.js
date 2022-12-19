@@ -6,12 +6,10 @@ function tocaSom(seletorElemento) {
         elemento.play();
     }
 
-    else {
-        console.log('elemento ou seletor não encontrado!')
-    }
+
 }
 
-const listaDeTeclas = document.querySelector('.tecla')
+const listaDeTeclas = document.querySelectorAll('.tecla')
 
 for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
